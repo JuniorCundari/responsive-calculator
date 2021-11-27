@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: bolder;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  background: hsl(222, 26%, 31%);
+}
+
+h1 {
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+#result {
+  background: hsl(224, 36%, 15%);
+  font-size: 2.5rem;
+  color: white;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  border-radius: 15px;
+  max-width: 412px;
+  height: 110px;
+
+  padding-right: 0.4rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.keyboard {
+  background: hsl(223, 31%, 20%);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 15px;
+  padding: 5px;
+}
+
+button {
+  width: 4.8rem;
+  height: 3rem;
+  margin: 0.5rem;
+
+  box-shadow: 0 4px hsl(30, 25%, 78%);
+  border-radius: 0.5rem;
+
+  font-size: 1.4rem;
+  color: hsl(221, 14%, 31%);
+
+  border: none;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.del {
+  background: hsl(225, 21%, 49%);
+  color: white;
+
+  box-shadow: 0 4px hsl(224, 28%, 35%);
+}
+
+.reset {
+  background: hsl(225, 21%, 49%);
+  color: white;
+
+  box-shadow: 0 4px hsl(224, 28%, 35%);
+  width: 10.8rem;
+}
+
+.equal {
+  background: hsl(6, 63%, 50%);
+  color: white;
+  box-shadow: 0 4px hsl(6, 70%, 34%);
+  width: 10.8rem;
+}
+
+@media only screen and (max-width: 400px) {
+  button {
+    width: 3.7rem;
+    height: 2rem;
+    font-size: 1.2rem;
+  }
+
+  #result {
+    width: 95vw;
+    font-size: 2rem;
+    height: 95px;
+  }
+
+  .keyboard {
+    width: 95vw;
+  }
+
+  .reset {
+    width: 8.5rem;
+    font-size: 1rem;
+  }
+
+  .equal {
+    width: 8.5rem;
+  }
+}
+
+@media only screen and (max-width: 312px) {
+  button {
+    width: 3rem;
+    font-size: 1rem;
+  }
+
+  .reset {
+    width: 7.2rem;
+    font-size: 0.9rem;
+  }
+
+  .equal {
+    width: 7.2rem;
+  }
+}
