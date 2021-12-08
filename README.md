@@ -1,6 +1,6 @@
 # 📱 Responsive Calculator
 
-## [You can use the calculator!]( https://juniorcundari.github.io/responsive-calculator/)
+## [You can use the calculator!]( https://juniorcundari.github.io/responsive-calculator/){:target="_blank"}
 
 This project is a Simple Responsive Calculator.
 
